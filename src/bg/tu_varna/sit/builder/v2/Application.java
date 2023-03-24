@@ -11,7 +11,7 @@ public class Application {
         builder.setBluetoothEnabled(true);
         builder.setGraphicsCardEnabled(true);
 
-        Computer comp = builder.build();
+                Computer comp = builder.build();
     }
 
 }
