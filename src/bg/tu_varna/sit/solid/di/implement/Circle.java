@@ -1,8 +1,8 @@
-package bg.tu_varna.sit.di.implement;
+package bg.tu_varna.sit.solid.di.implement;
 
-import bg.tu_varna.sit.di.interfaces.Shape;
-import bg.tu_varna.sit.is.Area;
-import bg.tu_varna.sit.is.Volume;
+import bg.tu_varna.sit.solid.di.interfaces.Area;
+import bg.tu_varna.sit.solid.di.interfaces.Volume;
+import bg.tu_varna.sit.solid.di.interfaces.Shape;
 
 public class Circle implements Area, Volume, Shape {
     private final double radius;

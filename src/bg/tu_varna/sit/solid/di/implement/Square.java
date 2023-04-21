@@ -1,8 +1,8 @@
-package bg.tu_varna.sit.di.implement;
+package bg.tu_varna.sit.solid.di.implement;
 
-import bg.tu_varna.sit.di.interfaces.Area;
-import bg.tu_varna.sit.di.interfaces.Shape;
-import bg.tu_varna.sit.di.interfaces.Volume;
+import bg.tu_varna.sit.solid.di.interfaces.Area;
+import bg.tu_varna.sit.solid.di.interfaces.Shape;
+import bg.tu_varna.sit.solid.di.interfaces.Volume;
 
 public class Square implements Area, Volume, Shape {
     private final double length;

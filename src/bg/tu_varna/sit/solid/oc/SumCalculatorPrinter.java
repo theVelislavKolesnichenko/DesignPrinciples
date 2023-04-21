@@ -1,4 +1,4 @@
-package bg.tu_varna.sit.oc;
+package bg.tu_varna.sit.solid.oc;
 
 public class SumCalculatorPrinter {
     private final AreaCalculator calculator;

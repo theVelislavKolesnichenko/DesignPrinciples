@@ -1,4 +1,4 @@
-package bg.tu_varna.sit.sr;
+package bg.tu_varna.sit.solid.sr;
 
 public class Circle {
     private final double radius;

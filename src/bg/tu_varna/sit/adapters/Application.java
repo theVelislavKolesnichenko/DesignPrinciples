@@ -1,8 +1,8 @@
 package bg.tu_varna.sit.adapters;
 
-import bg.tu_varna.sit.adapters.clazz.SocketClassAdapterImpl;
+import bg.tu_varna.sit.adapters.clazz.Socket120ClassAdapterImpl;
 import bg.tu_varna.sit.adapters.contracts.SocketAdapter;
-import bg.tu_varna.sit.adapters.models.Socket;
+import bg.tu_varna.sit.adapters.models.Socket120;
 import bg.tu_varna.sit.adapters.models.Volt;
 import bg.tu_varna.sit.adapters.object.SocketObjectAdapterImpl;
 
@@ -14,7 +14,7 @@ public class Application {
     }
 
     private static void testObjectAdapter() {
-        SocketAdapter sockAdapter = new SocketObjectAdapterImpl(new Socket());
+        SocketAdapter sockAdapter = new SocketObjectAdapterImpl(new Socket120());
         Volt v3 = getVolt(sockAdapter,3);
         Volt v12 = getVolt(sockAdapter,12);
         Volt v120 = getVolt(sockAdapter,120);
@@ -24,7 +24,7 @@ public class Application {
     }
 
     private static void testClassAdapter() {
-        SocketAdapter sockAdapter = new SocketClassAdapterImpl();
+        SocketAdapter sockAdapter = new Socket120ClassAdapterImpl();
         Volt v3 = getVolt(sockAdapter,3);
         Volt v12 = getVolt(sockAdapter,12);
         Volt v120 = getVolt(sockAdapter,120);

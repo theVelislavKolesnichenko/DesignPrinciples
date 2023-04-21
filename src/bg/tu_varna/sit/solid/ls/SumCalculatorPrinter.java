@@ -1,4 +1,4 @@
-package bg.tu_varna.sit.ls;
+package bg.tu_varna.sit.solid.ls;
 
 public class SumCalculatorPrinter {
     private final Calculator calculator;

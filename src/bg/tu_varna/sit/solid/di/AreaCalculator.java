@@ -1,6 +1,7 @@
-package bg.tu_varna.sit.di;
+package bg.tu_varna.sit.solid.di;
 
-import bg.tu_varna.sit.di.interfaces.Shape;
+
+import bg.tu_varna.sit.solid.di.interfaces.Shape;
 
 import java.util.List;
 

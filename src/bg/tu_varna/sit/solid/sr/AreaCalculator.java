@@ -1,4 +1,7 @@
-package bg.tu_varna.sit.sr;
+package bg.tu_varna.sit.solid.sr;
+
+import bg.tu_varna.sit.solid.di.implement.Circle;
+import bg.tu_varna.sit.solid.di.implement.Square;
 
 import java.util.List;
 

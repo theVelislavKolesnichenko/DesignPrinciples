@@ -1,10 +1,10 @@
 package bg.tu_varna.sit.adapters.clazz;
 
 import bg.tu_varna.sit.adapters.contracts.SocketAdapter;
-import bg.tu_varna.sit.adapters.models.Socket;
+import bg.tu_varna.sit.adapters.models.Socket120;
 import bg.tu_varna.sit.adapters.models.Volt;
 
-public class SocketClassAdapterImpl extends Socket implements SocketAdapter {
+public class Socket120ClassAdapterImpl extends Socket120 implements SocketAdapter {
 
     @Override
     public Volt get120Volt() {

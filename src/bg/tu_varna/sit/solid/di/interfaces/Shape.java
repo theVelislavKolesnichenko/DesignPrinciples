@@ -1,7 +1,4 @@
-package bg.tu_varna.sit.di.interfaces;
-
-import bg.tu_varna.sit.is.Area;
-import bg.tu_varna.sit.is.Volume;
+package bg.tu_varna.sit.solid.di.interfaces;
 
 public interface Shape extends Area, Volume {
 }

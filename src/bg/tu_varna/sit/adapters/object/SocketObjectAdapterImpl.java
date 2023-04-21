@@ -1,7 +1,8 @@
 package bg.tu_varna.sit.adapters.object;
 
+import bg.tu_varna.sit.adapters.contracts.Socket;
 import bg.tu_varna.sit.adapters.contracts.SocketAdapter;
-import bg.tu_varna.sit.adapters.models.Socket;
+import bg.tu_varna.sit.adapters.models.Socket120;
 import bg.tu_varna.sit.adapters.models.Volt;
 
 public class SocketObjectAdapterImpl implements SocketAdapter {
