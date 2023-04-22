@@ -21,8 +21,7 @@ public class ProxyInternet implements Internet {
 
     @Override
     public String connectTo(String serverHost) throws Exception {
-        if(bannedSites.contains(serverHost.toLowerCase()))
-        {
+        if(bannedSites.contains(serverHost.toLowerCase())) {
             throw new Exception("Access Denied");
         }
 

@@ -2,6 +2,7 @@ package bg.tu_varna.sit.proxy.example;
 
 import bg.tu_varna.sit.proxy.example.procy.ExpensiveObjectProxy;
 import bg.tu_varna.sit.proxy.example.services.ExpensiveObject;
+import bg.tu_varna.sit.proxy.example.services.ExpensiveObjectImpl;
 
 public class Application {
     public static void main(String[] args) {

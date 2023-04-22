@@ -34,7 +34,6 @@ public class Drawing implements Shape {
 
 
     public void clear(){
-        System.out.println("Clearing all the shapes from drawing");
-        this.shapes.clear();
+       this.shapes.clear();
     }
 }

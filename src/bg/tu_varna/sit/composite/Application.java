@@ -13,17 +13,19 @@ public class Application {
         Shape tri1 = new Triangle();
         Shape cir = new Circle();
 
+        System.out.println(tri.draw("Red"));
+
         Drawing drawing = new Drawing(new ArrayList<>());
         drawing.add(tri1);
         drawing.add(tri1);
         drawing.add(cir);
 
-        drawing.draw("Red");
+        System.out.println(drawing.draw("Red"));
 
         drawing.clear();
 
         drawing.add(tri);
         drawing.add(cir);
-        drawing.draw("Green");
+        System.out.println(drawing.draw("Green"));
     }
 }
