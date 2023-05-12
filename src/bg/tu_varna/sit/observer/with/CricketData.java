@@ -30,32 +30,19 @@ public class CricketData implements Subject {
         }
     }
 
-    // get latest runs from stadium
-    private int getLatestRuns()
-    {
-        // return 90 for simplicity
+    private int getLatestRuns() {
         return 90;
     }
 
-    // get latest wickets from stadium
-    private int getLatestWickets()
-    {
-        // return 2 for simplicity
+    private int getLatestWickets() {
         return 2;
     }
 
-    // get latest overs from stadium
-    private float getLatestOvers()
-    {
-        // return 90 for simplicity
+    private float getLatestOvers() {
         return (float)10.2;
     }
 
-    // This method is used update displays
-    // when data changes
-    public void dataChanged()
-    {
-        //get latest data
+    public void dataChanged() {
         runs = getLatestRuns();
         wickets = getLatestWickets();
         overs = getLatestOvers();
