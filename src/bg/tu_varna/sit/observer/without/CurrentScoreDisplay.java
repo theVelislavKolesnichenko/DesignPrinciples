@@ -1,7 +1,9 @@
 package bg.tu_varna.sit.observer.without;
 
 public class CurrentScoreDisplay {
-    private int runs, wickets;
+    private int runs;
+
+    private int wickets;
     private float overs;
 
     public void update(int runs,int wickets,float overs)

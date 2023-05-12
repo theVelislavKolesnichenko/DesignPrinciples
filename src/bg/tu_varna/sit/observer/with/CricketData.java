@@ -1,14 +1,13 @@
 package bg.tu_varna.sit.observer.with;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class CricketData implements Subject {
-    int runs;
-    int wickets;
-    float overs;
-    List<Observer> observerList;
+    private int runs;
+    private int wickets;
+    private float overs;
+    private List<Observer> observerList;
 
     public CricketData() {
         observerList = new ArrayList<>();
@@ -27,13 +26,8 @@ public class CricketData implements Subject {
     @Override
     public void notifyObservers() {
         for (Observer observer : observerList) {
-            observer.update(runs,wickets,overs);
+            observer.update(runs, wickets, overs);
         }
-//        for (Iterator<Observer> it = observerList.iterator(); it.hasNext();)
-//        {
-//            Observer o = it.next();
-//            o.update(runs,wickets,overs);
-//        }
     }
 
     // get latest runs from stadium

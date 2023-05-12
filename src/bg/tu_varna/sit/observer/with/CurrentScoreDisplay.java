@@ -2,7 +2,8 @@ package bg.tu_varna.sit.observer.with;
 
 public class CurrentScoreDisplay implements Observer
 {
-    private int runs, wickets;
+    private int runs;
+    private int wickets;
     private float overs;
 
     public void update(int runs, int wickets, float overs)

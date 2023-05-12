@@ -1,7 +1,6 @@
 package bg.tu_varna.sit.observer.with;
 
-public class AverageScoreDisplay implements Observer
-{
+public class AverageScoreDisplay implements Observer {
     private float runRate;
     private int predictedScore;
 
