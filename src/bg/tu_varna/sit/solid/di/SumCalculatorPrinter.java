@@ -1,9 +1,14 @@
 package bg.tu_varna.sit.solid.di;
 
-public class SumCalculatorPrinter {
-    private final AreaCalculator calculator;
+import bg.tu_varna.sit.solid.di.interfaces.Calculator;
+import bg.tu_varna.sit.solid.ls.VolumeCalculator;
 
-    public SumCalculatorPrinter(AreaCalculator calculator) {
+import java.util.ArrayList;
+
+public class SumCalculatorPrinter {
+    private final Calculator calculator;
+
+    public SumCalculatorPrinter(Calculator calculator) {
         this.calculator = calculator;
     }
 

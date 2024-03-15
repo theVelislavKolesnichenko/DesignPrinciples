@@ -9,7 +9,7 @@ public class Broker {
     private List<Order> orderList;
 
     public Broker() {
-        this.orderList = new ArrayList<Order>();
+        this.orderList = new ArrayList<>();
     }
 
     public void takeOrder(Order order){
@@ -17,7 +17,6 @@ public class Broker {
     }
 
     public void placeOrders(){
-
         for (Order order : orderList) {
             order.execute();
         }

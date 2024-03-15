@@ -12,7 +12,7 @@ public class Circle implements Shape {
     }
 
     public double area() {
-        return Math.PI * Math.pow(this.getRadius(), 2);
+        return 4 * Math.PI * Math.pow(this.getRadius(), 2);
     }
 
     @Override

@@ -9,6 +9,7 @@ public class Application {
 
         Computer com1 = new Computer.ComputerBuilder("500 GB", "2 GB")
                 .setBluetoothEnabled(true)
+                .setGraphicsCardEnabled(false)
                 .build();
     }
 }

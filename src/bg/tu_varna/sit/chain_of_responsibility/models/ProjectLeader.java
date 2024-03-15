@@ -11,9 +11,9 @@ public class ProjectLeader extends LeaveHandler {
         //Ръководителят на проекта може да одобри до 14 дни, в противен случай ще премине към HR
         if(leave.getNumberOfDays() <= 14){
             //Нивото на служител трябва да е 3 или по-високо, за да бъдете одобрени
-            if(leave.getEmpTier() <= 3){
+            if (leave.getEmpTier() <= 3) {
                 return "Your leave days has been APPROVED by Project Leader";
-            }else{
+            } else {
                 return "You employee Tier level is too low for request " + leave.getNumberOfDays() + " days";
             }
         }else{

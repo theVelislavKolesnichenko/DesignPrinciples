@@ -10,17 +10,9 @@ import bg.tu_varna.sit.factory.abstracts.enums.Dough;
 
 public class Application {
     public static void main(String[] args) {
-        Sweet cake = SweetFactory.getSweet(
-                new CakeFactory(Dough.CAKE,
-                        Cream.CREAM_1,
-                        2)
-        );
+        Sweet cake = SweetFactory.getFactory(Dough.CAKE).createSweet();
 
-        Sweet eclair = SweetFactory.getSweet(
-                new EclairFactory(Dough.ECLAIR,
-                        Cream.CREAM_1,
-                        Glaze.GLAZE_1)
-        );
+        Sweet eclair = SweetFactory.getFactory(Dough.ECLAIR).createSweet();
 
         System.out.println(cake.baking());
     }

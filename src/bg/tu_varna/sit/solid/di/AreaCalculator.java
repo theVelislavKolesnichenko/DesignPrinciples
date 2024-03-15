@@ -1,11 +1,12 @@
 package bg.tu_varna.sit.solid.di;
 
 
+import bg.tu_varna.sit.solid.di.interfaces.Calculator;
 import bg.tu_varna.sit.solid.di.interfaces.Shape;
 
 import java.util.List;
 
-public class AreaCalculator {
+public class AreaCalculator implements Calculator {
     private final List<Shape> shapes;
 
     public AreaCalculator(List<Shape> shapes) {

@@ -9,8 +9,8 @@ import bg.tu_varna.sit.factory.abstracts.models.Sweet;
 public class EclairFactory implements SweetAbstractFactory {
     private Eclair eclair;
 
-    public EclairFactory(Dough dough, Cream cream, Glaze glaze) {
-        eclair = new Eclair(dough, cream, glaze);
+    public EclairFactory() {
+        eclair = new Eclair(Dough.ECLAIR, Cream.CREAM_1, Glaze.GLAZE_1);
     }
 
     @Override

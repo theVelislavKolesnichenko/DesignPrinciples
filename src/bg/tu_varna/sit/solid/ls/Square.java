@@ -12,7 +12,7 @@ public class Square implements Shape {
     }
 
     public double area() {
-        return Math.pow(this.getLength(), 2);
+        return 6*Math.pow(this.getLength(), 2);
     }
 
     @Override

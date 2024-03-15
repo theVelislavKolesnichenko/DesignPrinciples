@@ -11,6 +11,7 @@ public class Application {
         shapes.add(new Square(6));
 
         AreaCalculator areas = new AreaCalculator(shapes);
+
         SumCalculatorPrinter printer = new SumCalculatorPrinter(areas);
 
         System.out.println(printer.print());

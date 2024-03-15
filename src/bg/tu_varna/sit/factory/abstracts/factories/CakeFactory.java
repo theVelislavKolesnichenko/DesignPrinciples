@@ -9,8 +9,8 @@ public class CakeFactory implements SweetAbstractFactory {
 
     private Cake cake;
 
-    public CakeFactory(Dough dough, Cream cream, int layers) {
-        this.cake = new Cake(dough, cream, layers);
+    public CakeFactory() {
+        this.cake = new Cake(Dough.CAKE, Cream.CREAM_1, 2);
     }
 
     @Override

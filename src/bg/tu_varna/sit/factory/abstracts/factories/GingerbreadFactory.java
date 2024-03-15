@@ -8,8 +8,8 @@ import bg.tu_varna.sit.factory.abstracts.models.Sweet;
 public class GingerbreadFactory implements SweetAbstractFactory {
     private Gingerbread gingerbread;
 
-    public GingerbreadFactory(Dough dough, Glaze glaze) {
-        gingerbread = new Gingerbread(dough, glaze);
+    public GingerbreadFactory() {
+        gingerbread = new Gingerbread(Dough.GINGERBREAD, Glaze.GLAZE_1);
     }
 
     @Override

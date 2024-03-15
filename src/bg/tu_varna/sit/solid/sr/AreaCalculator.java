@@ -24,7 +24,7 @@ public class AreaCalculator {
         return sum;
     }
 
-    /*public String print() {
-        return String.format("Сумата от площа на фигурите е: %s", this.sum());
-    }*/
+//    public void print() {
+//        System.out.printf("Сумата от площа на фигурите е: %s", this.sum());
+//    }
 }

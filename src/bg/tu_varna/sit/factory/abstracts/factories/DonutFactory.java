@@ -9,8 +9,8 @@ import bg.tu_varna.sit.factory.abstracts.models.Sweet;
 public class DonutFactory implements SweetAbstractFactory {
     private Donut donut;
 
-    public DonutFactory(Dough dough, Glaze glaze, Filling filling) {
-        donut = new Donut(dough, glaze, filling);
+    public DonutFactory() {
+        donut = new Donut(Dough.DONUT, Glaze.GLAZE_1, Filling.FILLING_1);
     }
 
     @Override

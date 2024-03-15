@@ -10,7 +10,7 @@ public class HumanResource extends LeaveHandler {
 
         //HR може да одобри до 21 дни, в противен случай ще премине към мениджъра
         if(leave.getNumberOfDays() <= 21){
-            //Нивото на служител трябва да е 3 или по-високо и типът на причината не трябва да е „Редовно“, за да получите одобрение
+            // Нивото на служител трябва да е 3 или по-високо и типът на причината не трябва да е „Редовно“, за да получите одобрение
             if(leave.getEmpTier() <= 3 && !leave.getReason().equals(ReasonType.REGULAR)){
                 return "Your leave days has been APPROVED by HR";
             }else{

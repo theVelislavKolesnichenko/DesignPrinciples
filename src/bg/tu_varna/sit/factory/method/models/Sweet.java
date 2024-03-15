@@ -1,7 +1,7 @@
 package bg.tu_varna.sit.factory.method.models;
 
-import bg.tu_varna.sit.factory.method.contracts.Bakery;
 import bg.tu_varna.sit.factory.method.enums.Dough;
+import bg.tu_varna.sit.factory.method.contracts.Bakery;
 
 public abstract class Sweet implements Bakery {
     private Dough dough;
