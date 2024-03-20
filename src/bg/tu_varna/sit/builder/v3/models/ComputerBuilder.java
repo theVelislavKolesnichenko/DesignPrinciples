@@ -8,12 +8,12 @@ public class ComputerBuilder {
         this.computer = new Computer(hdd, ram);
     }
 
-    public ComputerBuilder setGraphicsCardEnabled(boolean isGraphicsCardEnabled) {
+    public ComputerBuilder graphicsCardEnabled(boolean isGraphicsCardEnabled) {
         this.computer.setGraphicsCardEnabled(isGraphicsCardEnabled);
         return this;
     }
 
-    public ComputerBuilder setBluetoothEnabled(boolean isBluetoothEnabled) {
+    public ComputerBuilder bluetoothEnabled(boolean isBluetoothEnabled) {
         this.computer.setBluetoothEnabled(isBluetoothEnabled);
         return this;
     }
